@@ -1,0 +1,99 @@
+/*
+Theme Name: El meu tema
+Theme URI: https://github.com/2ASIX2018/SpecialSanchezTruck
+Author: Miguel
+Description: Tema wordpress personalitzat.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: elMeuTema
+*/
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/*header{
+  padding: 100px 0px 100px 0px;
+}*/
+
+/*section{
+    
+    width: auto;
+    margin-top: 100px ;
+}*/
+
+/*.micontenedor{
+
+    /*margin-top: 100px !important;*/
+    /*background-color: #ff0000;
+
+}*/
+/* MENU */
+
+div.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+}
+div.nav-menu li {
+  position: relative;
+  line-height: 1.7;
+  float: left;
+  padding-right: 10px;
+}
+div.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+div.nav-menu > ul > li {
+  float: left;
+}
+div.nav-menu > ul > li > a{
+  padding: 10px 10px;
+}
+div.nav-menu > ul > li:hover > a{
+  background: #333;
+}
+
+/* Sub/Children Menu */
+div.nav-menu .sub-menu,
+div.nav-menu .children {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1;
+  background: #333;
+  min-width: 200px;
+  display: none;
+}
+div.nav-menu li:hover > .sub-menu,
+div.nav-menu li:hover > .children {
+  display: block;
+}
+div.nav-menu .sub-menu a,
+div.nav-menu .children a {
+  padding: 5px 10px;
+}
+div.nav-menu .sub-menu li:hover a,
+div.nav-menu .children li:hover a {
+  background: #444;
+}
+
+/* Grandchildren Menu */
+div.nav-menu .sub-menu .sub-menu,
+div.nav-menu .children .children {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: #444;
+}
