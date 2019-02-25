@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="container micontenedor">
-<article class="row">
+<article>
 
 <?php
 
@@ -16,6 +16,9 @@
 
         <div>
           <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+
+        <p class="card-text"><?php the_content(); ?></p>        
+
           By: <?php the_author(); ?>
         </div>
 
@@ -26,6 +29,8 @@
         </div>
       </div-->
 
+
+<h3>Comentarios</h3>
 
 <?php
             
