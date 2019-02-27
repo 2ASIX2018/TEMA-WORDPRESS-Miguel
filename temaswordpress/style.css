@@ -9,6 +9,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: elMeuTema
 */
 
+
+
 footer {
     position: fixed;
     height: 100px;
@@ -21,10 +23,60 @@ footer {
 }
 
 #primary-sidebar{
-  /*background-color: #d5aa00;*/
-  float: left;
-  height:100%;
+    
+    color: black;
+    border-radius: 12px;
+    background-color: #ebebe0;
+    margin-top: 100px;
+    float: left;
+    height:100%;
 }
+
+#margen {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+aside ul li a {
+
+    color: black;
+    
+}
+
+aside ul {
+
+    list-style: none;
+
+}
+
+aside div {
+
+    padding:7px 10px;
+}
+
+form.search-form {
+
+    margin-top: 50px;
+    
+}
+
+input.search-field {
+	padding:5px 10px;
+    border-radius: 12px;
+  }
+
+  input.search-submit
+  {
+	padding:7px 10px;
+	background-color:#0ec3de;
+	border:0;
+	color:#fff;
+  }
+
+
+
 
 /*header{
   padding: 100px 0px 100px 0px;

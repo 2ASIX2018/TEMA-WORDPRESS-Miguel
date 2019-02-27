@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/lib/bootstrap/bootstrap.min.css"  />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/3-col-portfolio.css"  />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/submenu.css"  />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/calendario.css"  />
     <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_directory'); ?>/imgs/favicon.ico"  />
     
     <?php wp_head(); ?>

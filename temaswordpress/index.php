@@ -10,7 +10,7 @@
         </div-->
 
         <div class="container">
-        <div class="row" style="margin-bottom: 100px;">
+        <div id="margen" class="row">
         
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
