@@ -9,9 +9,40 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: elMeuTema
 */
 
+nav.bg-dark, footer.bg-dark {
+    background-color: black!important;
+}
 
+h2 a {
+
+    color: black;
+
+}
+
+h2 a:hover {
+
+    color: red;
+    text-decoration: none;
+
+}
+
+
+h4 a {
+
+    color: black;
+
+}
+
+h4 a:hover {
+
+    color: red;
+    text-decoration: none;
+
+}
 
 footer {
+    
+    background-color: black!important;
     position: fixed;
     height: 100px;
     bottom: 0;
@@ -22,11 +53,26 @@ footer {
   margin-bottom: 30px;
 }
 
+
+.micontenedor {
+
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+
+#comentarios {
+
+    margin-top: 50px;
+    margin-bottom: 50px;    
+    
+}
+
 #primary-sidebar{
     
     color: black;
     border-radius: 12px;
-    background-color: #ebebe0;
+    /*background-color: #ebebe0;*/
     margin-top: 100px;
     float: left;
     height:100%;
@@ -56,24 +102,23 @@ aside div {
     padding:7px 10px;
 }
 
-form.search-form {
+aside form.search-form {
 
     margin-top: 50px;
     
 }
 
-input.search-field {
+aside form input.search-field {
 	padding:5px 10px;
     border-radius: 12px;
   }
 
-  input.search-submit
-  {
+aside form input.search-submit{
 	padding:7px 10px;
 	background-color:#0ec3de;
 	border:0;
 	color:#fff;
-  }
+ }
 
 /* MENU */
 

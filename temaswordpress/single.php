@@ -30,7 +30,7 @@
       </div-->
 
 
-<h3>Comentarios</h3>
+<h3 id="comentarios">Comentarios</h3>
 
 <?php
             
