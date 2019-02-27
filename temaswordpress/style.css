@@ -20,6 +20,12 @@ footer {
   margin-bottom: 30px;
 }
 
+#primary-sidebar{
+  /*background-color: #d5aa00;*/
+  float: left;
+  height:100%;
+}
+
 /*header{
   padding: 100px 0px 100px 0px;
 }*/
